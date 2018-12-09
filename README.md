@@ -1,6 +1,6 @@
 # Myliobatis
 FDM 3D printer motherbords based on STM32F407VG/STM32F103RE
-This projects contains HW design of motherbords for FDM 3d printers. Where 3 variants of its:
+This projects contains design of motherbords for FDM 3d printers. Where 3 variants of its:
 1) <b>Mobula Ray</b>. This motherbords based on STM32F407VG microcontroller. Motherbords contains:
   - 6 stepper motors drivers TMC2224 (same as TMC2208) controlled by UART. Microsteps, stepper are current controlled by firmware. 
   - 6 PWM output - Heatbed, 3 x heaters, 2 controlled fans
@@ -17,7 +17,8 @@ This projects contains HW design of motherbords for FDM 3d printers. Where 3 var
   - micro SD
   - switch after end of print output
   - connectors for 9 programmable pins 
-  Project page on easyeda.com https://easyeda.com/mmaygli/mid-bro
+  - board size 150 x 120 mm
+  <br>Project page on easyeda.com https://easyeda.com/mmaygli/mid-bro
   2) <b>Manta Ray</b>. This motherbords based on STM32F407VG microcontroller. Has two variants. Variant A has common power suplay for heaters/fans and drivers. 
   Variant B has separate connectors for heaters and motor drivers. Motherbords contains:
   - Connectrs for 6 stepper motors compatible with A4988 (A4988, DRV8825, TMC2100, TMC2130, TMC2208, etc). 
@@ -35,7 +36,8 @@ This projects contains HW design of motherbords for FDM 3d printers. Where 3 var
   - micro SD
   - switch after end of print output
   - connectors for 13 programmable pins
-  Project pages on easyeda.com: https://easyeda.com/mmaygli/test3d, https://easyeda.com/mmaygli/bigbro-external-drivers-common-power
+  - board size 150 x 120 mm
+  <br>Project pages on easyeda.com: https://easyeda.com/mmaygli/test3d, https://easyeda.com/mmaygli/bigbro-external-drivers-common-power
   1) <b>Sting Ray</b>. This motherbords based on STM32F103RE microcontroller.  
   Variant B has separate connectors for heaters and motor drivers. Motherbords contains:
   - Connectrs for 5 stepper motors compatible with A4988 (A4988, DRV8825, TMC2100, TMC2130, TMC2208, etc). 
@@ -49,4 +51,6 @@ This projects contains HW design of motherbords for FDM 3d printers. Where 3 var
   - SWD connector
   - USB-B
   - micro SD
-Project page on easyeda.com https://easyeda.com/mmaygli/stm32f103-3d-printer-board
+  - board size 112 x 100 mm
+<br>Project page on easyeda.com https://easyeda.com/mmaygli/stm32f103-3d-printer-board
+<br> Status on 9 of Dec 2018: <b>Boards just desined. Its have never be assembled and tested</b>
