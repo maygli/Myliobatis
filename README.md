@@ -53,4 +53,4 @@ This projects contains design of motherbords for FDM 3d printers. Where 3 varian
   - micro SD
   - board size 112 x 100 mm
 <br>Project page on easyeda.com https://easyeda.com/mmaygli/stm32f103-3d-printer-board
-<br> Status on 9 of Dec 2018: <b>Boards just desined. Its have never be assembled and tested</b>
+<br> Status on 9 of Dec 2018: <b>Boards just designed. Its have never be assembled and tested</b>
